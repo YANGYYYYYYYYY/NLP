@@ -232,5 +232,5 @@ if __name__ == '__main__':
     train_rnnlm()
 
     print("\nTest the LSTM2……………………")
-    select_model_path = "models/LSTM2_model_epoch200.ckpt"
+    select_model_path = "models/LSTM2_model_epoch100.ckpt"
     mytest_rnnlm(select_model_path)
